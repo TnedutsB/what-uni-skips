@@ -1,14 +1,10 @@
 # Learn what UNI Skips
 
-Dieses repo soll UNI-Studenten, die vorher noch keine Erfahrungen mit
-Programmierung hatten leichter den Einstieg in die Programmierung zu finden
-und so z.B. Pythonkursen an der Universität zu folgen.
+This repository aims to help university students with no prior programming experience find an easier way to start programming and follow courses like Python at the university.
 
 ## How it works
 
-Aktuell arbeite ich noch daran, das ganze etwas interaktiver zu gestalten;
-dennoch könnt ihr die Inhalte bereits jetzt schon nutzen.
-Im Ordner `Tests` findet ihr Inhalte für unterschiedliche Wissensstufen.
+I'm currently working on making this more interactive; however, you can already use the content now. In the `Tests` folder, you'll find content for different knowledge levels.
 
 ## Start Here
 
