@@ -51,10 +51,11 @@ and not like this:
 Your next task is to put a stone in a box. Something like this:
 
     .
-    ├── the-knower-of-it-all.py
-    ├── Readme.md
-    └── Box
-      └── Stone
+    ├── Box
+    │   └── Stone
+    ├── preperation.md
+    ├── TEST.md
+    └── the-knower-of-it-all.py
 
 Please do this using the terminal. Which commands did you use?
 
