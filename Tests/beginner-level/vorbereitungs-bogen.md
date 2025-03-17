@@ -1,26 +1,21 @@
-# Einführung in Terminal und Git
+# Introduction to Terminal and Git
 
-## Das solltest du dir anschauen
-
+## What you should explore
 - Terminal vs Shell
-- Command Line Basics aneignen
-- Git wiederholen
+- Learn Command Line Basics
+- Review Git
 
-## Wichtig zu verstehen:
-
+## Important to understand:
 - Terminal Basics
 - Git Basics
 
-## Thema 1 - Command Line Basics
-
-Ich denke, damit es dir leichter fällt, in der Uni und auch allgemein Programmier- und Computerthemen zu verstehen,
-wäre es wichtig zu verstehen, wie:
-
-- die grundlegende Terminologie ist (was ist ein **Command**, was ist eine **Shell**, was ist die **Eingabeaufforderung** etc.)
-- man durch die Ordnerstruktur auf deinem Rechner navigiert und auch "Orte" auf deinem Rechner referenziert
-- man Inhalte in Ordnern anzeigt
-- die grundlegende Struktur eines Terminalcommands
-- einige Shell-Befehle und CLIs kennenlernen :
+## Topic 1 - Command Line Basics
+I think to make it easier for you to understand programming and computer topics at university and in general, it would be important to understand how to:
+- use the basic terminology (what is a **Command**, what is a **Shell**, what is the **Command Prompt**, etc.)
+- navigate through the folder structure on your computer and reference "locations" on your computer
+- display contents in folders
+- understand the basic structure of a terminal command
+- learn some Shell commands and CLIs:
   - ls
   - cd
   - mkdir
@@ -29,39 +24,31 @@ wäre es wichtig zu verstehen, wie:
   - cp
   - mv
   - cat
-  - **rm (VORSICHT!!!!)**
+  - **rm (CAUTION!!!!)**
   - **git**
   - python
-    - und pip/conda
+    - and pip/conda
 
-So könnte eine Beispielaufgabe aussehen:
-
+Here's what a sample task might look like:
 **Q1:**
-Du befindest dich in
-
+You are in
 ```
 ~/Downloads
 ```
-
-navigiere nach
-
+navigate to
 ```
 ~/Python-Projekte/uniAufgabeA
 ```
-
-und zeige alle Inhalte des Ordners in Listenform an.
+and display all contents of the folder in list form.
 
 **A1:**
-
 ```
 cd ../Python-Projekte/uniAufgabeA
 ls -la
 ```
 
-## Thema 2 - Git
-
-Lerne auch die Grundlagenbefehle von Git auf der Kommandozeile, das hilft zu verstehen, was die Knöpfe in unterschiedlichen IDEs im Hintergrund ausführen:
-
+## Topic 2 - Git
+Also learn the basic commands of Git on the command line, which helps to understand what the buttons in different IDEs execute in the background:
 - git push
 - git pull
 - git commit
@@ -71,27 +58,24 @@ Lerne auch die Grundlagenbefehle von Git auf der Kommandozeile, das hilft zu ver
 - git checkout
 - Bonus: git stash
 
-Du solltest zumindest wissen, was die Befehle machen und wie du sie grundlegend verwendest.
+You should at least know what the commands do and how to use them basically.
 
-So könnte eine Beispielaufgabe aussehen:
-
+Here's what a sample task might look like:
 **Q1:**
-"Wechsle auf den Branch mit dem Namen feature1"
+"Switch to the branch named feature1"
 
 **A1:**
-
 ```
 git checkout feature1
 ```
 
 **Q2:**
-"Du hast Änderungen in 3 Dateien (a.txt, b.txt, c.txt). Committe alle Änderungen in Datei a.txt und setze alles andere zum Ursprungszustand, nach deinem letzten Commit"
+"You have changes in 3 files (a.txt, b.txt, c.txt). Commit all changes in file a.txt and reset everything else to the original state, after your last commit"
 
 **A2:**
-
 ```
 git add a.txt
-git commit -m "Änderungen in a.txt committen"
+git commit -m "Commit changes in a.txt"
 git checkout -- b.txt c.txt
-# alternativ: git restore b.txt c.txt
+# alternatively: git restore b.txt c.txt
 ```
