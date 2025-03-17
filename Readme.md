@@ -8,4 +8,4 @@ I'm currently working on making this more interactive; however, you can already 
 
 ## Start Here
 
-- [Ground Zero: Terminal - Git - Python](/Tests/beginner-level/vorbereitungs-bogen.md)
+- [Ground Zero: Terminal - Git - Python](./Tests/beginner-level/preperation.md)
