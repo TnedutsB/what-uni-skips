@@ -89,7 +89,8 @@ Please do this using the terminal. Which commands did you use?
 ## A.5) Something useful (6 P.)
 
 Make your solutions available to me in a separate Git branch `your-name-solution` on
-GitHub.
+GitHub. 
+
 Bonus (2p): Create a pull request to the `main` branch and make me (jbefus)
 the reviewer.
 
