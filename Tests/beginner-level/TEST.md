@@ -42,7 +42,7 @@ und nicht so:
   💡
   </summary>
 
-    Frag den, der alles weiß (nicht deinen Sohn) ->
+    Frag den, der alles weiß ->
     schau mal hier in den Dateien, ob du etwas
     siehst, das alles wissen könnte.
 
@@ -94,7 +94,7 @@ Mach das bitte über das Terminal, welche Befehle hast du verwendet?
 
 ## A.5) Mal was nützliches (6 P.)
 
-Stelle mir deine Lösungen in einem separaten Git Branch `oxana-loesung` in
+Stelle mir deine Lösungen in einem separaten Git Branch `your-name-loesung` in
 GitHub bereit.
 
 Bonus (2p): Stelle einen Pullrequest in den `main` branch und mache mich(jbefus)
