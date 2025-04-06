@@ -11,11 +11,11 @@
 
 Because I want my checkboxes like this:
 
-- [x] Nice checkbox
+- [] Nice checkbox
 
 and not like this:
 
-- [ ] Silly checkbox
+- [x] Silly checkbox
 
 <details>
   <summary>
